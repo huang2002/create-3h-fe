@@ -1,0 +1,35 @@
+{
+  "name": "create-3h-fe",
+  "version": "0.1.0",
+  "description": "A front-end lib initializer.",
+  "bin": "./index.js",
+  "scripts": {
+    "pretest": "rm -r test || exit 0",
+    "test": "node ./index.js -n test -a 3h -k a b c --no-install",
+    "help": "node ./index.js --help"
+  },
+  "repository": "huang2002/create-3h-fe",
+  "keywords": [
+    "fe",
+    "front-end",
+    "lib",
+    "init",
+    "3h"
+  ],
+  "author": "3h",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huang2002/create-3h-fe/issues"
+  },
+  "homepage": "https://github.com/huang2002/create-3h-fe#readme",
+  "devDependencies": {
+    "@types/node": "^13.7.4"
+  },
+  "dependencies": {
+    "3h-cli": "^2.2.1"
+  },
+  "files": [
+    "template",
+    "index.js"
+  ]
+}
