@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.0
+
+- Update `dts2md` dependency
+
 ## 0.2.1
 
 - Fix template structure in `README.md`
