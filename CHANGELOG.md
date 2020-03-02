@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.2.1
+
+- Fix template structure in `README.md`
+
 ## 0.2.0
 
 - Add git ignore file
