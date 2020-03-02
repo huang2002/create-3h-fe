@@ -22,6 +22,7 @@ const templateFiles = [
     'test/index.html',
     'test/index.js',
     '.babelrc',
+    '.gitignore',
     'CHANGELOG.md',
     'index.d.ts',
     'LICENSE',
