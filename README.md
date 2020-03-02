@@ -45,6 +45,7 @@ your-awesome-lib/
 | +-- index.html
 | `-- index.js
 +-- .babelrc
++-- .gitignore
 +-- CHANGELOG.md
 +-- index.d.ts
 +-- LICENSE
