@@ -204,7 +204,7 @@ program
                 devDependencies: {
                     '@babel/core': '^7.8.0',
                     '@babel/preset-env': '^7.8.0',
-                    dts2md: '^0.1.0',
+                    dts2md: '^0.2.0',
                     rollup: '^1.32.0',
                     'rollup-plugin-babel': '^4.3.0',
                     terser: '^4.6.0',
