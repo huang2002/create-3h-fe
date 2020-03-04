@@ -30,7 +30,7 @@ Options:
 ## Example
 
 ```bash
-npm init 3h-fe -n my-awesome-lib -a Peter -d "This is my awesome lib"
+npm init 3h-fe -- -n my-awesome-lib -a Peter -d "This is my awesome lib"
 # or
 npx create-3h-fe -n my-awesome-lib -a Peter -d "This is my awesome lib"
 ```
