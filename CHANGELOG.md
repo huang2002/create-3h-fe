@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.2
+
+- Fix missing `.gitignore`
+
 ## 0.3.0
 
 - Update `dts2md` dependency
