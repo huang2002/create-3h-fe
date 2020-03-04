@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.3.1
+
+- Fix example usage
+
 ## 0.3.0
 
 - Update `dts2md` dependency
