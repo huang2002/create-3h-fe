@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.1
+
+- Fix `--desc` option
+
 ## 0.4.0
 
 - Update `dts2md`
