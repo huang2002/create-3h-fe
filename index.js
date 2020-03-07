@@ -150,7 +150,7 @@ program
 
         const data = {
             name,
-            desc: args.getOption('--desc')[0] || `This is ${name}.`,
+            desc: args.getOption('--desc').join(' ') || `This is ${name}.`,
             author: options.get('--author')[0],
             umd: args.getOption('--umd')[0] || abbr(name),
             year: (new Date()).getFullYear() + '',
