@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4.2
+
+- Fix `.gitignore`
+
 ## 0.4.1
 
 - Fix `--desc` option
