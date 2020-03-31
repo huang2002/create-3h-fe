@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.0
+
+- Disable ts incremental build by default
+
 ## 0.4.2
 
 - Fix `.gitignore`
