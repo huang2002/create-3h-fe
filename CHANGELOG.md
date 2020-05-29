@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.1
+
+- Update deps
+
 ## 0.6.0
 
 - Update `dts2md`
