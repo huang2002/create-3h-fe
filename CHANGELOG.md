@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.6.2
+
+- Fix script command
+
 ## 0.6.1
 
 - Update deps
