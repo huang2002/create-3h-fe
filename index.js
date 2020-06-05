@@ -201,7 +201,7 @@ program
                         '&&',
                         'node stat'
                     ].join(' '),
-                    docs: 'dts2md ** !index.d.ts -i ./types -o ./docs -l -I Home.md',
+                    docs: 'dts2md "**" "!index.d.ts" -i ./types -o ./docs -l -I Home.md',
                 },
                 repository: args.getOption('--repo')[0]
                     || `${data.author}/${name}`,
