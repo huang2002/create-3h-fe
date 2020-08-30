@@ -6,7 +6,9 @@ export default [
     {
         input,
         plugins: [
-            rollupPluginBabel()
+            rollupPluginBabel({
+                babelHelpers: 'bundled'
+            })
         ],
         output: {
             format: 'umd',
