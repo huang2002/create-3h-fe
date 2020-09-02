@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.7.1
+
+- Fix rollup config
+
 ## 0.7.0
 
 - Update deps
