@@ -1,4 +1,4 @@
-import rollupPluginBabel from "rollup-plugin-babel";
+import babel from "@rollup/plugin-babel";
 
 const input = './js/index.js';
 
@@ -6,7 +6,7 @@ export default [
     {
         input,
         plugins: [
-            rollupPluginBabel({
+            babel({
                 babelHelpers: 'bundled'
             })
         ],
