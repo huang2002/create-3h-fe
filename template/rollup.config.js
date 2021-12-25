@@ -7,20 +7,25 @@ export default [
         input,
         plugins: [
             babel({
-                babelHelpers: 'bundled'
-            })
+                babelHelpers: 'bundled',
+                presets: [
+                    ['@babel/preset-env', {
+                        loose: true,
+                    }],
+                ],
+            }),
         ],
         output: {
             format: 'umd',
             name: '__umd__',
-            file: './dist/__name__.umd.js'
-        }
+            file: './dist/__name__.umd.js',
+        },
     },
     {
         input,
         output: {
             format: 'esm',
-            file: './dist/__name__.js'
-        }
-    }
+            file: './dist/__name__.js',
+        },
+    },
 ];
