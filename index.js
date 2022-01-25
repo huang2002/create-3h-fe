@@ -14,13 +14,10 @@ const TEMPLATE_PATH = './template',
 
 const templateDirectories = [
     'src',
-    'test',
 ];
 
 const templateFiles = [
     'src/index.ts',
-    'test/index.html',
-    'test/index.js',
     '.babelrc',
     'CHANGELOG.md',
     'index.d.ts',

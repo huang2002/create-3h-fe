@@ -4,7 +4,9 @@
 
 ## Introduction
 
-This is a CLI tool that helps you quickly initialize a development environment for your awesome front-end library.
+This is a CLI tool
+that helps you quickly initialize a development environment
+for your awesome front-end library.
 
 ## Usage
 
@@ -30,7 +32,7 @@ Options:
 ## Example
 
 ```bash
-npm init 3h-fe -n my-awesome-lib -a Peter -d "This is my awesome lib"
+npm init 3h-fe -- -n my-awesome-lib -a Peter -d "This is my awesome lib"
 # or
 npx create-3h-fe -n my-awesome-lib -a Peter -d "This is my awesome lib"
 ```
@@ -41,10 +43,6 @@ npx create-3h-fe -n my-awesome-lib -a Peter -d "This is my awesome lib"
 your-awesome-lib/
 +-- src/
 | `-- index.ts
-+-- test/
-| +-- index.html
-| `-- index.js
-+-- .babelrc
 +-- .gitignore
 +-- CHANGELOG.md
 +-- index.d.ts
