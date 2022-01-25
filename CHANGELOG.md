@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.7.3
+
+- Fix missing files
+
 ## 0.7.2
 
 - Fix babel config
