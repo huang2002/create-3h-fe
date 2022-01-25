@@ -18,7 +18,6 @@ const templateDirectories = [
 
 const templateFiles = [
     'src/index.ts',
-    '.babelrc',
     'CHANGELOG.md',
     'index.d.ts',
     'LICENSE',
