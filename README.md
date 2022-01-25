@@ -60,9 +60,7 @@ Generally, you
 
 1. Write your source code in the `src` folder in TypeScript
 2. Build your lib by executing `npm run build`
-3. Write test code in `test/index.js`
-4. Open `test/index.html` to test your lib
-5. ...
+3. ...
 
 ## Built-in Scripts
 
@@ -71,4 +69,11 @@ Generally, you
 | `build` | build your code     |
 | `docs`  | build API reference |
 
-Specifically, after building your code by executing `npm run build`, compiled JavaScript files are placed in the `js` folder, and bundled files can be found in the `dist` folder, which are transformed by `babel` and bundled by `rollup`. Additionally, you can execute `npm run docs` to build the API reference of your lib using package [`dts2md`](https://www.npmjs.com/package/dts2md). By default, documentation files are placed in the `docs` folder.
+Specifically, after building your code by executing `npm run build`,
+compiled JavaScript files are placed in the `js` folder,
+and bundled files can be found in the `dist` folder,
+which are transformed by `babel` and bundled by `rollup`.
+Additionally, you can execute `npm run docs`
+to build the API reference of your lib
+using package [`dts2md`](https://www.npmjs.com/package/dts2md).
+By default, documentation files are placed in the `docs` folder.
