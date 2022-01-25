@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.7.5
+
+- Fix docs
+
 ## 0.7.4
 
 - Fix missing files
