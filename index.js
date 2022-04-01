@@ -208,13 +208,13 @@ program
                     'index.d.ts'
                 ],
                 devDependencies: {
-                    '@babel/core': '^7.10.0',
-                    '@babel/preset-env': '^7.10.0',
+                    '@babel/core': '^7.17.0',
+                    '@babel/preset-env': '^7.16.0',
                     dts2md: '^0.4.0',
-                    rollup: '^2.26.0',
-                    '@rollup/plugin-babel': '^5.2.0',
-                    terser: '^5.2.0',
-                    typescript: '^4.0.0',
+                    rollup: '^2.70.0',
+                    '@rollup/plugin-babel': '^5.3.0',
+                    terser: '^5.12.0',
+                    typescript: '^4.6.0',
                 }
             },
             null, // replacer
