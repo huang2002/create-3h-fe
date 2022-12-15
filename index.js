@@ -1,5 +1,4 @@
-#!/usr/bin/env node
-// @ts-check
+#!/usr/bin/node
 const { Program } = require('3h-cli'),
     { existsSync, promises: fsPromises } = require('fs'),
     { execSync } = require('child_process'),
