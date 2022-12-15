@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.8.0
+
+- Use `defineConfig`
+- Improve js file extensions
+- Update deps
+
 ## 0.7.5
 
 - Fix docs
