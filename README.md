@@ -48,8 +48,8 @@ your-awesome-lib/
 +-- index.d.ts
 +-- LICENSE
 +-- README.md
-+-- rollup.config.js
-+-- stat.js
++-- rollup.config.mjs
++-- stat.cjs
 +-- terser.json
 `-- tsconfig.json
 ```
