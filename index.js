@@ -194,7 +194,7 @@ program
                         '--config-file terser.json',
                         `-o dist/${name}.umd.min.js`,
                         '&&',
-                        'node stat'
+                        'node stat.cjs'
                     ].join(' '),
                     docs: 'dts2md "**" "!index.d.ts" -i ./types -o ./docs -l -I Home.md',
                 },
