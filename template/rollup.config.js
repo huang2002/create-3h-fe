@@ -1,8 +1,9 @@
+import { defineConfig } from "rollup";
 import babel from "@rollup/plugin-babel";
 
 const input = './js/index.js';
 
-export default [
+export default defineConfig([
     {
         input,
         plugins: [
@@ -28,4 +29,4 @@ export default [
             file: './dist/__name__.js',
         },
     },
-];
+]);
