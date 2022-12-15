@@ -210,10 +210,10 @@ program
                     '@babel/core': '^7.17.0',
                     '@babel/preset-env': '^7.16.0',
                     dts2md: '^0.4.0',
-                    rollup: '^2.70.0',
-                    '@rollup/plugin-babel': '^5.3.0',
-                    terser: '^5.12.0',
-                    typescript: '^4.6.0',
+                    rollup: '^3.7.0',
+                    '@rollup/plugin-babel': '^6.0.0',
+                    terser: '^5.16.0',
+                    typescript: '^4.9.0',
                 }
             },
             null, // replacer
