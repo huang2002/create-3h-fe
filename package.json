@@ -1,6 +1,6 @@
 {
   "name": "create-3h-fe",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "type": "commonjs",
   "description": "A front-end lib initializer.",
   "bin": "./index.cjs",
