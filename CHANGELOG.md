@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.9.1
+
+- Improve module config
+
 ## 0.9.0
 
 - Use `defineConfig`
