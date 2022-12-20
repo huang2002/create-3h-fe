@@ -19,14 +19,14 @@ export default defineConfig([
         output: {
             format: 'umd',
             name: '__umd__',
-            file: './dist/__name__.umd.js',
+            file: './dist/__name__.umd.cjs',
         },
     },
     {
         input,
         output: {
             format: 'esm',
-            file: './dist/__name__.js',
+            file: './dist/__name__.mjs',
         },
     },
 ]);

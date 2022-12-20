@@ -1,12 +1,13 @@
 {
   "name": "create-3h-fe",
   "version": "0.9.0",
+  "type": "commonjs",
   "description": "A front-end lib initializer.",
-  "bin": "./index.js",
+  "bin": "./index.cjs",
   "scripts": {
     "pretest": "rm -r test || exit 0",
-    "test": "node ./index.js -n test -a 3h -d \"A test project\" -k a b c --no-install",
-    "help": "node ./index.js --help"
+    "test": "node ./index.cjs -n test -a 3h -d \"A test project\" -k a b c --no-install",
+    "help": "node ./index.cjs --help"
   },
   "repository": "huang2002/create-3h-fe",
   "keywords": [
@@ -30,6 +31,6 @@
   },
   "files": [
     "template",
-    "index.js"
+    "index.cjs"
   ]
 }
