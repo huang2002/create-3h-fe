@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.10.0
+
+- Add `exports` field to template `package.json`.
+
 ## 0.9.1
 
 - Improve module config
